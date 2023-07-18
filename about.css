@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   height: 900px;
-  background: linear-gradient(45deg, rgb(0, 0, 0), rgb(60, 61, 66));
+  background-color: #303841;
   background-repeat: no-repeat;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
