@@ -42,7 +42,7 @@ footer {
   font-weight: lighter;
   display: flex;
   justify-content: space-evenly;
-  padding: 2rem;
+  padding: 18px 0;
   background: #303841;
   border-top: 4px solid red;
   font-size: 20px;
@@ -64,4 +64,6 @@ h2 {
   text-align: center;
   padding-top: 11px;
   color: rgb(255, 255, 255);
+}
+.my-name {
 }
