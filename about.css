@@ -2,11 +2,12 @@ body {
   margin: 0;
   padding: 0;
   height: 900px;
-  background-color: #303841;
+  background: linear-gradient(0deg, #303841, #2b2a2a);
   background-repeat: no-repeat;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 nav {
   color: white;
   background-color: rgb(167, 31, 31);
@@ -19,25 +20,30 @@ nav {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   border-bottom: 1px solid black;
 }
+
 nav ul {
   margin: 0;
   padding: 16px;
   display: flex;
   align-items: flex-end;
 }
+
 nav li {
   list-style: none;
   margin-right: 15px;
 }
+
 nav a {
   color: aliceblue;
   padding: 20px;
   text-decoration: none;
 }
+
 nav a:hover {
   background-color: rgba(39, 43, 65, 0.6);
   padding: 20px;
 }
+
 footer {
   font-weight: lighter;
   display: flex;
@@ -50,20 +56,73 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
+
 h1 {
   text-align: center;
-  font-size: 60px;
-  padding: 20px;
+  font-size: 70px;
+  margin: 24px 0;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(105, 127, 255);
 }
-p {
-  font-size: 20px;
-  padding-left: 40px;
+
+.text {
+  font-size: 15px;
+  margin: 0;
+  font-family: "Roboto Mono", monospace;
+  margin-bottom: 50px;
 }
+
 h2 {
   font-size: 35px;
-  text-align: center;
-  padding-top: 11px;
-  color: rgb(255, 255, 255);
+  color: rgb(118, 139, 207);
+  font-family: "Roboto Mono", monospace;
+  margin: 0;
 }
-.my-name {
+
+.lists {
+  font-family: "Roboto Mono", monospace;
+  margin-bottom: 50px;
+}
+
+.lists ul {
+  list-style: none;
+  margin: 0;
+}
+
+.about-me {
+  padding: 0 300px;
+}
+
+.about-me h2:nth-of-type(1) {
+  text-align: right;
+  margin-right: 210px;
+}
+
+.text1 {
+  margin-left: 700px;
+}
+
+.about-me h2:nth-of-type(2) {
+  text-align: left;
+  margin-left: 130px;
+}
+
+.about-me h2:nth-of-type(3) {
+  text-align: right;
+  margin-right: 230px;
+}
+
+.text2 {
+  margin-left: 700px;
+}
+
+.about-me h2:nth-of-type(4) {
+  text-align: left;
+  margin-left: 150px;
+}
+
+.text3 {
+  margin-right: 700px;
 }
